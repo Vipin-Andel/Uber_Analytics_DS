@@ -1,0 +1,74 @@
+{
+  "name": "Uber Electric Lime Light Theme",
+  "dataColors": [
+    "#7BFE00",
+    "#09091A",
+    "#00D084",
+    "#0284C7",
+    "#59BD00",
+    "#F59E0B",
+    "#64748B",
+    "#99FE40"
+  ],
+  "background": "#F8F9FA",
+  "foreground": "#09091A",
+  "tableAccent": "#7BFE00",
+  "good": "#7BFE00",
+  "neutral": "#0284C7",
+  "bad": "#EF4444",
+  "maximum": "#7BFE00",
+  "center": "#F59E0B",
+  "minimum": "#EF4444",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E5E7EB" } },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E2E8F0" } },
+            "position": "Outer",
+            "preset": "BottomRight"
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#09091A" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "labels": [
+          {
+            "fontColor": { "solid": { "color": "#6B7280" } },
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F8F9FA" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

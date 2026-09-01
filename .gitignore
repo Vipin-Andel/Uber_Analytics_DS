@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Secrets & Environment Variables (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# Large Data & Model Binaries (if any)
+*.pkl
+*.joblib
+
+# OS & Editor Specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
